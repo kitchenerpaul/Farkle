@@ -13,6 +13,7 @@
 		176631951BCB46E900CBD68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176631931BCB46E900CBD68F /* Main.storyboard */; };
 		176631971BCB46E900CBD68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176631961BCB46E900CBD68F /* Assets.xcassets */; };
 		1766319A1BCB46E900CBD68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176631981BCB46E900CBD68F /* LaunchScreen.storyboard */; };
+		176631A31BCB49A600CBD68F /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 176631A21BCB49A600CBD68F /* DieLabel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		176631961BCB46E900CBD68F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		176631991BCB46E900CBD68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1766319B1BCB46E900CBD68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176631A11BCB49A600CBD68F /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		176631A21BCB49A600CBD68F /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		176631891BCB46E800CBD68F /* NewFarkle */ = {
 			isa = PBXGroup;
 			children = (
-				1766318D1BCB46E900CBD68F /* AppDelegate.h */,
-				1766318E1BCB46E900CBD68F /* AppDelegate.m */,
+				176631931BCB46E900CBD68F /* Main.storyboard */,
 				176631901BCB46E900CBD68F /* ViewController.h */,
 				176631911BCB46E900CBD68F /* ViewController.m */,
-				176631931BCB46E900CBD68F /* Main.storyboard */,
-				176631961BCB46E900CBD68F /* Assets.xcassets */,
-				176631981BCB46E900CBD68F /* LaunchScreen.storyboard */,
-				1766319B1BCB46E900CBD68F /* Info.plist */,
+				176631A11BCB49A600CBD68F /* DieLabel.h */,
+				176631A21BCB49A600CBD68F /* DieLabel.m */,
 				1766318A1BCB46E900CBD68F /* Supporting Files */,
 			);
 			path = NewFarkle;
@@ -74,6 +74,11 @@
 		1766318A1BCB46E900CBD68F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				176631961BCB46E900CBD68F /* Assets.xcassets */,
+				176631981BCB46E900CBD68F /* LaunchScreen.storyboard */,
+				1766319B1BCB46E900CBD68F /* Info.plist */,
+				1766318D1BCB46E900CBD68F /* AppDelegate.h */,
+				1766318E1BCB46E900CBD68F /* AppDelegate.m */,
 				1766318B1BCB46E900CBD68F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,6 +158,7 @@
 				176631921BCB46E900CBD68F /* ViewController.m in Sources */,
 				1766318F1BCB46E900CBD68F /* AppDelegate.m in Sources */,
 				1766318C1BCB46E900CBD68F /* main.m in Sources */,
+				176631A31BCB49A600CBD68F /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

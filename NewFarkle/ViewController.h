@@ -13,3 +13,7 @@
 
 @end
 
+
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dieLabelTapped:)];
+//    [dieLabel addGestureRecognizer:tap];
+

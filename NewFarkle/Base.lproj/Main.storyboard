@@ -1,25 +1,161 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMB-K5-eKW" customClass="DieLabel">
+                                <rect key="frame" x="69" y="284" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="L1z-V3-zBk" appends="YES" id="RZc-oG-dnE"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Su9-dI-aAW" customClass="DieLabel">
+                                <rect key="frame" x="135" y="284" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oV5-QQ-nD3" appends="YES" id="Pxc-S7-aaf"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ks-Ym-fHt" customClass="DieLabel">
+                                <rect key="frame" x="201" y="284" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1m4-Mz-5pd" appends="YES" id="OMf-q4-PXI"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MP-RQ-PrG" customClass="DieLabel">
+                                <rect key="frame" x="69" y="353" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2hQ-SI-OBz" appends="YES" id="RTa-Xe-CD5"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axa-fv-isS" customClass="DieLabel">
+                                <rect key="frame" x="135" y="353" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jc2-bR-iWf" appends="YES" id="zKk-sD-GKa"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGq-ts-S7c" customClass="DieLabel">
+                                <rect key="frame" x="201" y="353" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95042660359999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="65g-vE-Nss" appends="YES" id="DIG-Qp-tr4"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXr-UQ-YhP">
+                                <rect key="frame" x="69" y="441" width="182" height="66"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.16579887409999999" green="0.69160353539999997" blue="0.18613137860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="50"/>
+                                <state key="normal" title="ROLL">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRollPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Att-dz-rby"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0H-B1-Cmg">
+                                <rect key="frame" x="69" y="144" width="182" height="101"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.907513554" green="0.92495265149999994" blue="0.27617644930000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="65"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Farkle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8B6-FW-PLE">
+                                <rect key="frame" x="20" y="34" width="280" height="72"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
+                    <connections>
+                        <outlet property="dieLabel1" destination="MMB-K5-eKW" id="Nvd-8X-OOJ"/>
+                        <outlet property="dieLabel2" destination="Su9-dI-aAW" id="iqB-08-QoN"/>
+                        <outlet property="dieLabel3" destination="7Ks-Ym-fHt" id="rQX-pg-PRt"/>
+                        <outlet property="dieLabel4" destination="0MP-RQ-PrG" id="tns-QF-mbI"/>
+                        <outlet property="dieLabel5" destination="axa-fv-isS" id="uXI-WH-2Nb"/>
+                        <outlet property="dieLabel6" destination="eGq-ts-S7c" id="YFX-8R-bU0"/>
+                        <outlet property="userScore" destination="P0H-B1-Cmg" id="Q7f-uz-sig"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="L1z-V3-zBk">
+                    <connections>
+                        <action selector="onTap:" destination="MMB-K5-eKW" id="QjD-aV-7Kp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oV5-QQ-nD3">
+                    <connections>
+                        <action selector="onTap:" destination="Su9-dI-aAW" id="Rfl-ag-mkx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="1m4-Mz-5pd">
+                    <connections>
+                        <action selector="onTap:" destination="7Ks-Ym-fHt" id="UUe-76-zND"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="2hQ-SI-OBz">
+                    <connections>
+                        <action selector="onTap:" destination="0MP-RQ-PrG" id="KUs-p4-WbE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jc2-bR-iWf">
+                    <connections>
+                        <action selector="onTap:" destination="axa-fv-isS" id="SLO-pM-zHZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="65g-vE-Nss">
+                    <connections>
+                        <action selector="onTap:" destination="eGq-ts-S7c" id="knM-Xj-aKt"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="162" y="347"/>
         </scene>
     </scenes>
 </document>
